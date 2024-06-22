@@ -40,7 +40,7 @@ class _AllSongPageState extends State<AllSongPage> {
                         Obx(
                           () => Container(
                             decoration: BoxDecoration(
-                              color: Colors.white,
+                              color: Color(0XFF00ccb2),
                               borderRadius: BorderRadius.circular(50),
                             ),
                             width: 50,
@@ -52,11 +52,9 @@ class _AllSongPageState extends State<AllSongPage> {
                               icon: playerController.isPlaying.value
                                   ? Icon(
                                       Icons.pause_rounded,
-                                      color: Colors.orange,
                                     )
                                   : Icon(
                                       Icons.play_arrow_rounded,
-                                      color: Colors.orange,
                                     ),
                             ),
                           ),
