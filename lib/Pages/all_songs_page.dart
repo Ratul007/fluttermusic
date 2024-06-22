@@ -18,6 +18,7 @@ class _AllSongPageState extends State<AllSongPage> {
   Widget build(BuildContext context) {
     PlayerController playerController = Get.put(PlayerController());
     return Scaffold(
+      backgroundColor: Color(0XFF00ccb2),
       bottomNavigationBar: Obx(
         () => InkWell(
           onTap: () {
@@ -30,7 +31,7 @@ class _AllSongPageState extends State<AllSongPage> {
                 ? Container(
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.deepPurple,
+                      color: Colors.orange,
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Row(
@@ -51,11 +52,11 @@ class _AllSongPageState extends State<AllSongPage> {
                               icon: playerController.isPlaying.value
                                   ? Icon(
                                       Icons.pause_rounded,
-                                      color: Colors.deepPurple,
+                                      color: Colors.orange,
                                     )
                                   : Icon(
                                       Icons.play_arrow_rounded,
-                                      color: Colors.deepPurple,
+                                      color: Colors.orange,
                                     ),
                             ),
                           ),
@@ -95,12 +96,14 @@ class _AllSongPageState extends State<AllSongPage> {
                     },
                     icon: Icon(
                       Icons.arrow_back_ios_new_rounded,
+                      color: Colors.orange,
                       size: 30,
                     ),
                   ),
                   Text(
                     "All Songs",
                     style: TextStyle(
+                      color: Colors.orange,
                       fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
@@ -139,10 +142,11 @@ class _AllSongPageState extends State<AllSongPage> {
                             margin: EdgeInsets.only(bottom: 10),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
-                              color: Colors.grey[800],
+                              color: Colors.orange,
                             ),
                             child: ListTile(
                               leading: CircleAvatar(
+                                backgroundColor: Color(0XFF00ccb2),
                                 child: Icon(Icons.music_note),
                               ),
                               title: Text(

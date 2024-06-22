@@ -15,10 +15,12 @@ class SongPlayerPage extends StatelessWidget {
     PlayerController playerController = Get.put(PlayerController());
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor:  Color(0XFF00ccb2),
         elevation: 0,
-        title: Text("FlutterMusic"),
+        title: Text("Wrapped In Music",style: TextStyle(color: Colors.orange),),
         centerTitle: true,
+    iconTheme: IconThemeData(
+    color: Colors.orange),
         actions: [
           IconButton(
             icon: Icon(Icons.queue_music_rounded, size: 30),
@@ -62,6 +64,8 @@ class SongPlayerPage extends StatelessWidget {
               children: [
                 Obx(
                   () => Slider(
+                    inactiveColor: Color(0XFF00ccb2),
+                    activeColor: Colors.orange,
                       value: playerController.currentValue.value
                           .clamp(0.0, playerController.max.value),
                       min: 0.0,
@@ -131,12 +135,12 @@ class SongPlayerPage extends StatelessWidget {
                               ? Icon(
                                   Icons.pause_rounded,
                                   size: 50,
-                                  color: Colors.deepPurple,
+                                  color: Colors.orange,
                                 )
                               : Icon(
                                   Icons.play_arrow_rounded,
                                   size: 50,
-                                  color: Colors.deepPurple,
+                                  color: Colors.orange,
                                 ),
                         ),
                       ),

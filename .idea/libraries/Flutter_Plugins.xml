@@ -1,6 +1,21 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/audio_session-0.1.16" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/permission_handler-10.3.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/audio_service-0.18.10" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.7" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.11" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/on_audio_query_web-1.6.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_android-2.0.27" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider-2.0.15" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/just_audio-0.9.34" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/just_audio_web-0.4.8" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/sqflite-2.2.8+4" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/audio_service_web-0.1.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/on_audio_query-2.9.0" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>
