@@ -11,6 +11,7 @@ class SpalcePage extends StatelessWidget {
   Widget build(BuildContext context) {
     SplaceController splaceController = Get.put(SplaceController());
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
           child: Lottie.asset(
         'assets/animation/logo.json',
