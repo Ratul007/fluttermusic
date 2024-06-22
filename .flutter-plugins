@@ -1,0 +1,20 @@
+# This is a generated file; do not edit or check into version control.
+audio_service=/home/eagle/.pub-cache/hosted/pub.dev/audio_service-0.18.10/
+audio_service_web=/home/eagle/.pub-cache/hosted/pub.dev/audio_service_web-0.1.1/
+audio_session=/home/eagle/.pub-cache/hosted/pub.dev/audio_session-0.1.16/
+just_audio=/home/eagle/.pub-cache/hosted/pub.dev/just_audio-0.9.34/
+just_audio_web=/home/eagle/.pub-cache/hosted/pub.dev/just_audio_web-0.4.8/
+on_audio_query=/home/eagle/.pub-cache/hosted/pub.dev/on_audio_query-2.9.0/
+on_audio_query_android=/home/eagle/.pub-cache/hosted/pub.dev/on_audio_query_android-1.1.0/
+on_audio_query_ios=/home/eagle/.pub-cache/hosted/pub.dev/on_audio_query_ios-1.1.0/
+on_audio_query_web=/home/eagle/.pub-cache/hosted/pub.dev/on_audio_query_web-1.6.0/
+path_provider=/home/eagle/.pub-cache/hosted/pub.dev/path_provider-2.0.15/
+path_provider_android=/home/eagle/.pub-cache/hosted/pub.dev/path_provider_android-2.0.27/
+path_provider_foundation=/home/eagle/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.3/
+path_provider_linux=/home/eagle/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.11/
+path_provider_windows=/home/eagle/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.7/
+permission_handler=/home/eagle/.pub-cache/hosted/pub.dev/permission_handler-10.3.0/
+permission_handler_android=/home/eagle/.pub-cache/hosted/pub.dev/permission_handler_android-10.2.3/
+permission_handler_apple=/home/eagle/.pub-cache/hosted/pub.dev/permission_handler_apple-9.1.0/
+permission_handler_windows=/home/eagle/.pub-cache/hosted/pub.dev/permission_handler_windows-0.1.2/
+sqflite=/home/eagle/.pub-cache/hosted/pub.dev/sqflite-2.2.8+4/
